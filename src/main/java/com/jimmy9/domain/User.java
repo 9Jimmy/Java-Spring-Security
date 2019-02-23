@@ -7,7 +7,7 @@ import java.util.Set;
 
 @Entity
 @Data
-@Table(name = "usr") /** delete it if something works wrong */
+@Table(name = "usr") 
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
